@@ -1,0 +1,16 @@
+# build output
+target/
+bin/
+*.class
+
+# IDE files (Eclipse / IntelliJ / VS Code)
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+
+# secrets: your real database password lives here, never commit it
+config.properties
+
+*.log
